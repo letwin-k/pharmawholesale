@@ -35,10 +35,11 @@ body {
     transform: translateX(100px); /* Move everything 100px to the left */
   }
   
-  .logo {
-    height: 50px; /* Adjust logo size */
+  .icon {
+    height: 20px; /* Adjust logo size */
     margin-right: 10px; /* Add space between the logo and the text */
   }
+
   
   .text {
     font-size: 16px;
@@ -50,9 +51,14 @@ body {
 .spacer {
   width: 20px;}  /* Adjust the space between the two sets */
 
+  .logo {
+    height: 60px; /* Adjust logo size */
+    margin-right: 10px; /* Add space between the logo and the text */
+  }
+
 
   .overlay { /* overlay */
-    height: 61px;
+    height: 71px;
     background-color: rgba(255, 255, 255, 0.5); /* Slightly transparent */
     position: sticky; /* Sticks to top-bar-one */
     top: 53px; /* Stays directly below top-bar-one */
@@ -109,9 +115,6 @@ body {
 }
 
 
-
-
-  
   .lower-footer {
     height: 58px;
     background-color: rgb(22, 22, 22);
