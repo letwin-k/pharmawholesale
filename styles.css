@@ -1,0 +1,81 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Light background to see the sections clearly */
+  }
+  .container { /* ALL content */
+    max-width: 100%; /* Make the container responsive */
+    margin: 0 auto;
+  }
+
+
+  /* TOP content 1 */
+  .top-bar-one { /* TOP content 1 */
+    height: 53px;
+    background-color: #85c76b;
+    position: sticky; /* Sticks to the top of the page */
+    top: 0; /* Keeps it at the top of the viewport */
+    z-index: 10; /* Ensures it stays above other content */
+
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center content vertically */
+  }
+  
+  
+  
+  .top-bar-content {
+    display: flex; /* Use flexbox for horizontal alignment */
+    align-items: center; /* Center items vertically in the line */
+    padding: 0 20px; /* Add spacing from the edges */
+
+    /*gap: 30px;  Adds space between flex items */
+    transform: translateX(100px); /* Move everything 100px to the left */
+  }
+  
+  .logo {
+    height: 50px; /* Adjust logo size */
+    margin-right: 10px; /* Add space between the logo and the text */
+  }
+  
+  .text {
+    font-size: 16px;
+    color: white;
+    margin: 0; /* Remove default paragraph margins */
+  }
+
+ /* Spacer div */
+.spacer {
+  width: 20px;}  /* Adjust the space between the two sets */
+
+
+
+  .top-bar-two { /* TOP content 2...overlay */
+    height: 61px;
+    background-color: rgba(255, 255, 255, 0.5); /* Slightly transparent */
+    position: sticky; /* Sticks to top-bar-one */
+    top: 53px; /* Stays directly below top-bar-one */
+    z-index: 9; /* Ensures it stays below top-bar-one */
+  }
+
+  /* MAIN content */
+  .section-one { /* main content 1 */
+    height: 346px;
+    background-color: rgb(126, 212, 252);
+  }
+  
+  .section-two { /* main content 2 */
+    height: 556px;
+    background-color: rgb(255, 255, 255);
+  }
+
+/* BOTTOM content: */
+  .bottom-bar-one {
+    height: 58px;
+    background-color: rgb(43, 43, 43);
+  }
+  
+  .bottom-bar-two {
+    height: 58px;
+    background-color: rgb(22, 22, 22);
+  }
