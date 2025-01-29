@@ -28,6 +28,8 @@ body {
     display: flex; /* Use flexbox for horizontal alignment */
     align-items: center; /* Center items vertically in the line */
     padding: 0 20px; /* Add spacing from the edges */
+    min-height: 100%; /* Takes full height of parent */
+
 
     /*gap: 30px;  Adds space between flex items */
     transform: translateX(100px); /* Move everything 100px to the left */
@@ -50,7 +52,7 @@ body {
 
 
 
-  .top-bar-two { /* TOP content 2...overlay */
+  .top-bar-two { /* overlay */
     height: 61px;
     background-color: rgba(255, 255, 255, 0.5); /* Slightly transparent */
     position: sticky; /* Sticks to top-bar-one */
@@ -62,6 +64,8 @@ body {
     display: flex; /* Use flexbox for horizontal alignment */
     align-items: center; /* Center items vertically in the line */
     padding: 0 20px; /* Add spacing from the edges */
+    min-height: 100%; /* Takes full height of parent */
+
 
     gap: 30px; /* Adds space between flex items */
     transform: translateX(100px); /* Move everything 100px to the left */
@@ -88,7 +92,26 @@ body {
   .bottom-bar-one {
     height: 58px;
     background-color: rgb(43, 43, 43);
+    
   }
+
+  .bottom-bar-one-content {
+    display: flex; /* Use flexbox for horizontal alignment */
+    align-items: center; /* Center items vertically in the line */
+    padding: 0 20px; /* Add spacing from the edges */
+    min-height: 100%; /* Takes full height of parent */
+
+    gap: 30px; /* Adds space between flex items */
+    transform: translateX(100px); /* Move everything 100px to the left */
+  }
+
+  .bottom-bar-one-content, .bottom-bar-one-content * {
+    color: rgb(235, 235, 235);
+}
+
+
+
+
   
   .bottom-bar-two {
     height: 58px;
