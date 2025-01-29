@@ -58,6 +58,21 @@ body {
     z-index: 9; /* Ensures it stays below top-bar-one */
   }
 
+  .overlay-content {
+    display: flex; /* Use flexbox for horizontal alignment */
+    align-items: center; /* Center items vertically in the line */
+    padding: 0 20px; /* Add spacing from the edges */
+
+    gap: 30px; /* Adds space between flex items */
+    transform: translateX(100px); /* Move everything 100px to the left */
+  }
+
+  .overlay-content, .overlay-content * {
+    color: rgb(11, 21, 112);
+}
+
+
+
   /* MAIN content */
   .section-one { /* main content 1 */
     height: 346px;
