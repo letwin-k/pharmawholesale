@@ -50,6 +50,10 @@ body {
 .spacer {
   width: 20px;}  /* Adjust the space between the two sets */
 
+ /* Spacer-two div */
+ .spacer-two {
+  width: 10px;}  /* Adjust the space between the two sets */
+
 
 
   .top-bar-two { /* overlay */
@@ -117,3 +121,17 @@ body {
     height: 58px;
     background-color: rgb(22, 22, 22);
   }
+
+  .bottom-bar-two-content {
+    display: flex; /* Use flexbox for horizontal alignment */
+    align-items: center; /* Center items vertically in the line */
+    padding: 0 20px; /* Add spacing from the edges */
+    min-height: 100%; /* Takes full height of parent */
+
+    gap: 30px; /* Adds space between flex items */
+    transform: translateX(100px); /* Move everything 100px to the left */
+  }
+
+  .bottom-bar-two-content, .bottom-bar-two-content * {
+    color: rgb(71, 69, 69);
+}
