@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+}
+
+.dropdown-container {
+    text-align: center;
+    background: transparent;
+    padding: 0;
+    border-radius: 5px;
+    box-shadow: none;
+    display: inline-block;
+}
+
+select {
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 150px; /* Adjust width to fit the layout */
+    height: 30px; /* Adjust height for navbar */
+}
+
+select option {
+    padding: 5px;
+    color: rgb(0, 0, 0); /* Adjust the colour of options shown in the menu */
+
+}
+
+/* Remove black border when the select is focused or active */
+select:focus {
+    outline: none; /* Remove the default focus outline */
+
+}
+
+.text {
+    color: white;
+  }
